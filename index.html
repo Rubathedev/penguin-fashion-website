@@ -4,19 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>penguin-fashion-website</title>
-    <link rel="stylesheet" href="style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/c34727ef8e.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    .bebas-neue-regular {
+  font-family: "Bebas Neue", serif;
+  font-family: "Roboto", serif;
+}
+
+</style>
 </head>
 <body>
-    <header>
+    <header class="bg-[#fefaf0] ">
         <!-- navigation -->
-        <nav>
-     <h1 class="font-bold underline ">hello world</h1>
+        <nav class=" w-4/5 m-auto  flex justify-between p-4"  >
+           
+            <!-- logo -->
+            <img  class="w-72" src="./icons/logo.png" alt="LOGO">
+            
+            <div class="flex  ">
+                  <p class="p-4"><a href="#">Home</a></p>
+                  <p class="p-4" ><a href="#">Product</a></p>
+                  <p class="p-4"><a href="#">about us</a></p>
+                  <p class="p-4"><a href="#">Contract us</a></p>
+            </div>
+           </div>
         </nav>
         <!-- banner  -->
+      <div class="w-4/5 m-auto flex justify-around items-center">
+      <div class="flex flex-col gap-6">
+        <h1 class=" font-normal text-7xl"><span class="text-[#FABE4C]">Be the Penguins</span> <br><span class="text-[#363958]">of Winter</span></h1>
+        <p>Lorem Ipsum is simply dummy text of the printing  <br>
+            and typesetting industry.</p>
+            <button class=" w-32 -px-8 py-4 text-white rounded-xl bg-gradient-to-r from-[#A4BC46] to-[#85A019]  hover:bg-red-300 "><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+      </div>
       <div>
-
+        <img src="./images/model.png" alt="model">
+      </div>
       </div>
     </header>
 </body>
